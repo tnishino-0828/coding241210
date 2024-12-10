@@ -1000,12 +1000,12 @@ div.fastidiousness section.brands div.container div.lists div.item + .item {
 }
 @media (min-width: 768px) and (max-width: 991.98px) {
   div.fastidiousness section.brands div.container div.lists div.item:nth-child(2) {
-    background-image: url("img/fastidiousness_brands_bg.webp");
+    background-image: url("../img/fastidiousness_brands_bg.webp");
     background-size: cover;
   }
 }
 div.fastidiousness section.brands div.container div.lists div.item:nth-child(2) dl.text {
-  background-image: url("img/fastidiousness_brands_bg.webp");
+  background-image: url("../img/fastidiousness_brands_bg.webp");
   background-size: cover;
   width: 100%;
   height: 100%;
@@ -1325,7 +1325,7 @@ div.fastidiousness section.design_case div.title h2 {
   }
 }
 div.fastidiousness section.design_case div.case {
-  background-image: url("img/fastidiousness_landscape_bg.webp");
+  background-image: url("../img/fastidiousness_landscape_bg.webp");
   background-size: cover;
   width: 100%;
   height: 100%;
