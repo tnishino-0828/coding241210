@@ -844,14 +844,18 @@ div.fastidiousness {
             @media (min-width: 768px) and (max-width: 991.98px) {
               width: 46%;
             }
-            img {}
+            img {
+              @media (min-width: 768px) {
+                height: 615px;
+              }
+            }
           }
           dl.text {
             background-color: #fff;
             padding: 16px 16px 32px;
             @media (min-width: 768px) {
               flex: 1;
-              padding: 56px 100px 80px 213px;
+              padding: 56px 75px 80px 200px;
               margin-left: -113px;
               margin-top: 72px;
             }
@@ -904,7 +908,7 @@ div.fastidiousness {
               div.more {
                 margin-top: 50px;
                 @media (min-width: 768px) {
-                  margin-top: 101px;
+                  margin-top: 76px;
                 }
                 @media (min-width: 768px) and (max-width: 991.98px) {
                   margin-top: 50px;
@@ -962,7 +966,7 @@ div.fastidiousness {
               width: 100%;
               height: 100%;
               @media (min-width: 768px) {
-                padding: 56px 213px 80px 100px;
+                padding: 56px 200px 80px 85px;
                 margin-left: initial;
                 margin-right: -113px;
               }
@@ -1484,6 +1488,11 @@ div.fastidiousness {
             }
           }
         }
+      }
+    }
+    &.container {
+      @media (min-width: 768px) {
+        max-width: 1300px;
       }
     }
   }

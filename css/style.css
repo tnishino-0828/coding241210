@@ -861,6 +861,11 @@ div.fastidiousness section.brands div.container div.lists {
     width: 46%;
   }
 }
+@media (min-width: 768px) {
+  div.fastidiousness section.brands div.container div.lists div.item div.image img {
+    height: 615px;
+  }
+}
 div.fastidiousness section.brands div.container div.lists div.item dl.text {
   background-color: #fff;
   padding: 16px 16px 32px;
@@ -868,7 +873,7 @@ div.fastidiousness section.brands div.container div.lists div.item dl.text {
 @media (min-width: 768px) {
   div.fastidiousness section.brands div.container div.lists div.item dl.text {
     flex: 1;
-    padding: 56px 100px 80px 213px;
+    padding: 56px 75px 80px 200px;
     margin-left: -113px;
     margin-top: 72px;
   }
@@ -939,7 +944,7 @@ div.fastidiousness section.brands div.container div.lists div.item dl.text dd di
 }
 @media (min-width: 768px) {
   div.fastidiousness section.brands div.container div.lists div.item dl.text dd div.more {
-    margin-top: 101px;
+    margin-top: 76px;
   }
 }
 @media (min-width: 768px) and (max-width: 991.98px) {
@@ -1012,7 +1017,7 @@ div.fastidiousness section.brands div.container div.lists div.item:nth-child(2) 
 }
 @media (min-width: 768px) {
   div.fastidiousness section.brands div.container div.lists div.item:nth-child(2) dl.text {
-    padding: 56px 213px 80px 100px;
+    padding: 56px 200px 80px 85px;
     margin-left: initial;
     margin-right: -113px;
   }
@@ -1560,5 +1565,10 @@ div.fastidiousness section.design_case div.case.case2 {
 @media (min-width: 992px) and (max-width: 1024px) {
   div.fastidiousness section.design_case div.case.case2 div.thumbnail {
     margin-top: 16px;
+  }
+}
+@media (min-width: 768px) {
+  div.fastidiousness section.design_case.container {
+    max-width: 1300px;
   }
 }/*# sourceMappingURL=style.css.map */
